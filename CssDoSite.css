@@ -1,13 +1,65 @@
 *{
     margin: 0px;
-    padding: 20px;
+    padding: 0px;
+}
+
+.ParteCima{
+    display: flex;
+    justify-content: stretch;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 60px;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+}
+
+li{
+    display: block;
+    padding: 6px 9px;
+    margin: 0 9px;
+    position: relative;
+}
+
+a{
+    font-size: 25px;
+    color: crimson;
+}
+
+.Logo{
+    font-size: 11pt;
+}
+
+.mecanismo{
+letter-spacing: .01em;
+}
+
+header{
+    flex: 1;
+    background-color: black;
+}
+
+h1{
+    font-size: 50px;
+    height: 60px;
+    padding: 60px;
+    color: white;
 }
 
 main{
-    background-color: aqua;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: 90px;
 }
 
-H2{
-    background-color: yellow;
+h3{
+    line-height: 38px;
+    font-size: 39px;
+    margin-top: -65px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
